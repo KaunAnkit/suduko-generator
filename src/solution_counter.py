@@ -1,8 +1,7 @@
 from sudoku_solver import board_filler
 from sudoku_solver import position_finder
 from sudoku_solver import number_placer
-
-from generator import random_list_generator
+from utils import random_list_generator
 
 def solution_counter(board):
 

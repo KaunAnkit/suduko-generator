@@ -1,3 +1,5 @@
+from utils import random_list_generator
+
 
 board = [[-1,-1,-1,-1,-1,-1,-1,-1,-1],
          [-1,-1,-1,-1,-1,-1,-1,-1,-1],
@@ -47,7 +49,7 @@ def board_filler(board):
         return True
 
     row,col = position_finder(board)
-    for x in range(1,10):
+    for x in random_list_generator():
         
 
         value = number_placer(board,x,row,col)

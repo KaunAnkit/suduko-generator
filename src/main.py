@@ -1,6 +1,7 @@
 from generator import generate_full_board, remove_numbers
 
 
+
 def print_board(board):
     for row in board:
         print(" ".join(str(num) if num != -1 else "." for num in row))
